@@ -172,7 +172,7 @@ elif [[ "${PYTHON_VERSION}" == ${PY36}* || "${PYTHON_VERSION}" == ${PYPY36}* ]];
   PIP_VERSION='21.3.1'
   SETUPTOOLS_VERSION='59.6.0'
 fi
-
+SETUPTOOLS_VERSION='57.5.0'
 puts-step "Installing pip ${PIP_VERSION}, setuptools ${SETUPTOOLS_VERSION} and wheel ${WHEEL_VERSION}"
 
 # We don't use get-pip.py, since:
